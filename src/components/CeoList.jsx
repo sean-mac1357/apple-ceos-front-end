@@ -28,7 +28,7 @@ const CeoList = () => {
                     </ul>
                 </Route>
                 <Route path='/ceo/:ceo_slug'>
-                    <CeoDetails ceos={ceos}/>
+                    <CeoDetails ceos={ceos} />
                     <button type="button" onClick={() => history.goBack()}>Go Back</button>
                 </Route>
                 </>
